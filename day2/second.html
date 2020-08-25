@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h2>Customer Info</h2>
+            </center>
+            <hr/>
+        </header>
+        <div>
+            <form action="abc.py" method="GET">
+                <fieldset>
+                    <legend>Customers</legend>
+                    <input type="hidden" value="token"/>
+                    <label>SNo</label>
+                    <input type="text" value="325f32fe" readonly
+                    name="sno"/>
+                    <div>
+                        <label for="fname">FirstName</label>
+                        <input type="text" value="John" id="fname"
+                        name="firstname"/>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="a@a.com" id="email"
+                        required
+                        name="email"/>
+                    </div>
+                    <div>
+                        <label for="pwd">PassWord</label>
+                        <input type="password" id="pwd"
+                        name="pass"/>
+                    </div>
+                    <div>
+                        <label>Gender</label>
+                        <label>
+                            <input type="radio"
+                            name="gender"
+                            value="Female"/>Female
+                        </label>
+                        <label>
+                            <input type="radio"
+                            name="gender"
+                            value="male"/>Male
+                        </label>
+                    </div>
+                    <div>
+                        <label>Language</label>
+                        <label>
+                            <input type="checkbox"
+                            name="lang"
+                            value="hindi"/>Hindi
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                            name="lang"
+                            value="eng"/>English
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                            name="lang"
+                            value="fr"/>French
+                        </label>
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <select>
+                            <option>Delhi</option>
+                            <option>Paris</option>
+                            <option>Amsterdam</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Coding</label>
+                        <input list="code" name="code" id="codelang"/>
+
+                        <datalist id="code">
+                            <option>JavaScript</option>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                        </datalist>
+                    </div>
+                    <label>Comment</label>
+                    <textarea rows="2" cols="40"></textarea>
+                    <div>
+                        <input type="submit" value="Submit"/>
+                        <input type="reset" value="Reset"/>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

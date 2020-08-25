@@ -1,0 +1,160 @@
+HTML
+HTML5
+CSS
+CSS3
+Bootstrap3
+Bootstrap4
+
+JavaScript
+Ecma 5
+Ecma 6
+> variable
+> Operations
+> condition
+> localstorage
+> session
+> cookies
+> String literals
+> if else
+> ternery Operations
+> Date
+> switch
+> array
+> loops
+> functions 
+> Es6
+    > lat, const
+    > maps,filter
+    > Clousers
+> regex
+> Hoisting
+> JSON
+> object 
+> Transpile
+> Es6
+    > classes
+    > import export
+npm
+package.json
+this
+> Prototypes
+> DoM
+> Geolocation
+> Calc
+> Form validation
+> Event
+> Progress bar
+> currenyConvertor
+> promis
+> async await
+> Jquery
+> ajax
+> Weather application
+////////////////////////
+> Dynamic Dropdown
+////////////////////////////////
+Plugins
+
+
+MERN
+Mongo Express React Node
+
+MongoDb => Database (JavaScript)
+Express+Node => Backend (JavaScript)
+React => Frontend (JavaScript)
+//////////////////////////////////
+
+
+PSD
+Photoshop design
+
+////////
+InLine > Start from same line
+Block Level > Start in new line
+
+
+
+SPA
+Single Page application
+React/Angular
+
+SPT
+Single Page Template
+
+/////////
+inline 
+style tag
+stylesheet => external
+
+inlinecss > styletag > stylesheet
+
+tagname
+classname > common
+id > unique
+
+col-xs >  768px
+col-sm >  768-992
+col-md >  992-1200
+col-lg >  above 1200
+
+
+https://git-scm.com/downloads
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/mywebtest.git
+git push -u origin master
+
+git add .
+git commit -m "first commit"
+git push
+
+git clone repopath
+
+git pull 
+
+modal
+Bootstrap4
+Flex box
+Grid
+progress bar
+Forms
+
+///////////////////////
+Booststarp4
+///////////////////////
+col-   (extra Small >576px)
+col-sm (small device < 576 >768)
+col-md (medium <768 >992)
+col-lg (large <992 >1200)
+col-xl (xlarge <1200)
+
+
+///////////////////////
+NPM
+///////////////////////
+node package manager
+
+babel
+
+
+package.JSON
+> metadata(name,version,description)
+> script(start,build)
+> packages
+> entry point
+
+///////////
+step to create package.JSON
+/////////
+**NodeJs must be installed
+> using cmd/terminal navigate to the folder
+> npm init -y
+
+///////////
+step to install packages
+/////////
+> using cmd/terminal navigate to the folder
+> npm i packagename
+> npm i @babel/core @babel/preset-env @babel/regsiter

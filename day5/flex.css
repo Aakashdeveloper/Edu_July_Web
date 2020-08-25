@@ -1,0 +1,78 @@
+#main > p {
+    color:magenta
+}
+
+p{
+    color:red
+}
+
+.flex-container{
+    display: flex;
+   justify-content: space-between;
+    background-color: olive;
+}
+
+.flex-container > div{
+    background-color: hotpink;
+    width:150px;
+    height:150px;
+    margin:15px;
+    text-align: center;
+}
+
+#t2d{
+    height:100px;
+    width:200px;
+    background-color: indianred;
+}
+
+#t2d:hover{
+    transform: rotate(70deg);
+}
+/*
+transform: translate(150px,100px);
+-ms-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg)
+*/
+
+#t2t{
+    height:100px;
+    width:200px;
+    background-color: hotpink;
+    transition: width 4s, height 5s;
+}
+
+#t2t:hover{
+    height:200px;
+    width:300px; 
+}
+
+#animat{
+    height:100px;
+    width:200px;
+    background-color: green;
+    animation-name: edureka;
+    animation-duration: 6s;
+    
+}
+
+@keyframes edureka{
+    from {background-color:green}
+    to {background-color:red}
+}
+
+body{
+    background-image:radial-gradient(circle,red,skyblue,teal,orange);
+}
+
+@font-face{
+    font-family: edurekafont;
+    src: url(abc.woff)
+}
+
+
+div{
+    font-family:edurekafont ;
+}
